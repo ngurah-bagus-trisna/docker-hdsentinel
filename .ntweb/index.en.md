@@ -2,7 +2,7 @@
 metadata:
   website: https://hub.docker.com/r/ntrrg/hdsentinel
 title: docker-hdsentinel
-description: Dockerized Hard Disk Sentinel CLI.
+description: Dockerized Hard Disk Sentinel.
 tags:
   - containers
   - clis
@@ -10,11 +10,11 @@ tags:
   - hdsentinel
 ---
 
-[![Docker Build Status](https://img.shields.io/docker/build/ntrrg/hdsentinel.svg)](https://hub.docker.com/r/ntrrg/hdsentinel)
+[![GitHub Actions](https://github.com/ntrrg/docker-hdsentinel/workflows/Docker/badge.svg)](https://github.com/ntrrg/docker-hdsentinel/actions?query=workflow:Docker)
 
 [Hard Disk Sentinel]: https://www.hdsentinel.com/
 
-**docker-hdsentinel** is a Dockerized [Hard Disk Sentinel][] CLI.
+**docker-hdsentinel** is a Dockerized [Hard Disk Sentinel][].
 
 | Tag | Dockerfile |
 | --: | :-- |
