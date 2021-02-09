@@ -23,7 +23,7 @@ tags:
 # Uso
 
 ```shell-session
-$ docker run --rm -v /dev/:/dev/ \
+$ docker run --rm --privileged -v /dev/:/dev/ \
     ntrrg/hdsentinel [OPCIONES] [DISCO]
 ```
 
@@ -36,13 +36,21 @@ oficial](https://www.hdsentinel.com/hard_disk_sentinel_linux.php).
 * Obtener información de los discos en el sistema
 
 ```shell-session
-$ docker run --rm -v /dev/:/dev/ ntrrg/hdsentinel -solid
+$ docker run --rm --privileged -v /dev/:/dev/ ntrrg/hdsentinel
 ```
 
 * Obtener información del disco principal
 
 ```shell-session
-$ docker run --rm -v /dev/:/dev/ ntrrg/hdsentinel -solid /dev/sda
+$ docker run --rm --privileged -v /dev/:/dev/ \
+    ntrrg/hdsentinel -dev /dev/sda
+```
+
+* Obtener un reporte simple del disco principal
+
+```shell-session
+$ docker run --rm --privileged -v /dev/:/dev/ \
+    ntrrg/hdsentinel -dev /dev/sda -solid
 ```
 
 # Atribuciones
