@@ -23,7 +23,7 @@ tags:
 # Usage
 
 ```shell-session
-$ docker run --rm --privileged -v /dev/:/dev/ \
+$ docker run --privileged -v /dev/:/dev/ \
     ntrrg/hdsentinel [OPTIONS] [DISK]
 ```
 

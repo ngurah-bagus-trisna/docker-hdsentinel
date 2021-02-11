@@ -1,4 +1,2 @@
 Dockerfile@ntrrg/hdsentinel
-Dockerfile@ntrrg/hdsentinel:alpine
-debian.Dockerfile@ntrrg/hdsentinel:debian
 

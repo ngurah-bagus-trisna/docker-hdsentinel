@@ -1,4 +1,3 @@
-HUGO_VERSION ?= 0.80.0
 HUGO_PORT ?= 1313
 
 .PHONY: all
