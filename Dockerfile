@@ -1,5 +1,5 @@
 FROM alpine:3.13
-ARG HDSENTINEL_VERSION="018c"
+ARG HDSENTINEL_VERSION="019b"
 RUN \
   apk add --no-cache ca-certificates && \
   \
